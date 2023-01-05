@@ -8,12 +8,16 @@
 <script>
 const arrays = [1,2,3,4,5,6,7,8,9,10];
 let sum = 0
-for (const value of arrays) {
-    sum += value;
+for (let i = 0; i < arrays.length; i++) {
+    sum = sum + arrays[i];
 }
-document.getElementById("sumfinal").innerHTML = sum;
 
-//console.log(sum);
+//for (const value of arrays) {
+//    sum += value;
+//}
+//document.getElementById("sumfinal").innerHTML = sum;
+
+console.log(sum);
 </script>
 
 </body>
